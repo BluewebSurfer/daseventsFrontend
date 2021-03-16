@@ -20,7 +20,6 @@ header .topheader{
   background-color: var(--pink);
   float: right;
   text-align: center;
-  
 }
 header .banner{
     position: relative;
@@ -130,7 +129,6 @@ padding: 30px;
     background-repeat: no-repeat;
     /* background-position: left; */
     background-position: 0 2.5em,right 1000px;
- 
 }
 .bg-shapes-right{
     height: 100%;
@@ -429,32 +427,28 @@ color:rgb(62 62 62) ;
     margin-top: -30px;
     font-size: 1.8em;
   }
-  nav{
+  .topnav{
     margin-top: -5px;
     border: 1px solid red;
     width: 100%;
+    position: relative;
   }
-  nav ul{
+  .topnav ul{
     flex-direction: column;
   }
   .hammenu{
     display: block;
   }
-  nav{
-    position: relative;
-  }
-  nav ul a .hammenu {
+  
+  .topnav ul a .hammenu {
     position: absolute;
     top: 0;
     right: 0;
   }
-  nav .topnav a:not(:first-child){
-    display: none;
+  .topnav ul a:not(:first-child){
+    /* display: none; */
   }
-  .topnav .responsive a{
-    display: block;
-    border: 10px solid black;
-  }
+  
 
   /* subhead */
   .sub-head{
@@ -562,4 +556,11 @@ object-fit: cover;
   margin-top: -70px;
 }
 
+}
+
+@media (max-width:480px){
+  .topnav .responsive ul a{
+    display: block;
+    border: 10px solid black;
+  }
 }

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script defer src="index.js"></script>
-    <script defer src="menu.js"></script>
+    <!-- <script  src="menu.js"></script> -->
 </head>
 <body>
     <header>
@@ -24,8 +24,8 @@
                 </div>
             </div>
         </div>
-        <nav >
-            <ul class="topnav responsive" id="myTopNav" >
+        <nav class="topnav" id="myTopNav"  >
+            <ul>
                 <a href="javascript:void(0);" class="hammenu" onclick="myFunction()">
                     Logo
                     <i class="fa fa-bars"  ></i>
@@ -168,6 +168,13 @@
         <p>&nbsp; Designed and Developed By: <a href="www.bluewebsurfer.com">BlueWeb Surfer</a></p>
     </div>
     </footer>
-    
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myTopnav");
+  x.classList.toggle("responsive");
+    // x.classList.add('topnav','responsive');
+ 
+}
+    </script>
 </body>
 </html>
