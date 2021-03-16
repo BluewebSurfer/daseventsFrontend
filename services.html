@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="services.css">
+    <script defer src="menu.js"></script>
 </head>
 <body>
     <header>
@@ -20,15 +21,19 @@
                 </div>
             </div>
         </div>
-        <nav>
+        <nav class="mynav" id="myId">
             <ul>
-               <a href="index.html"><li>Home</li> </a> 
-                <a href="projects.html"><li>Projects</li></a>
-                <a href="services.html"><li>Services</li></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    Das Events
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="index.html"> <li>Home</li></a> 
+                <a href="projects.html"> <li>Projects</li></a>
+                <a href="services.html"> <li>Services</li></a>
                 <a href="aboutus.html"><li>About Us</li> </a>
-                <a href="contact.html"><li>Contact</li></a>
+                <a href="contact.html"><li>Contact</li></a>              
             </ul>
-        </nav>
+            </nav>
     </header>
 
     <section class="bg">
@@ -92,8 +97,12 @@
             </div>
         </div>
         <div class="content">
-<p>Lorem ipsum, dolor sit amet consectetur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, expedita? Incidunt harum maxime enim, explicabo facilis ad eveniet ullam quaerat, fuga impedit libero, sed laboriosam inventore quia quis magni illo!
-     adipisicing elit. Mollitia ullam distinctio quaerat minus optio totam blanditiis recusandae. Aperiam maiores eligendi accusamus explicabo reprehenderit voluptatem earum. Fugit distinctio nam architecto modi!</p>
+<p>Besides the services mentioned above, we are mindful of the safety and security of the guests. Specially
+    during the time of pandemic, our Emergency Response team responds quickly to any human, medical or
+    nature caused emergencies. We also provide post event services as we realize, the cleaning up after the
+    event can be as energy draining as planning the event. Thus we deal with paying all the vendors,
+    arranging the pick ups for all the decors and items from the venue to the respective vendors and
+    cleaning the venue before handing it over.</p>
         </div>
     </section>
 

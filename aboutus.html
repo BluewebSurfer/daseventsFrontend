@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="aboutus.css">
+    <script defer src="menu.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -20,15 +21,19 @@
                 </div>
             </div>
         </div>
-        <nav>
+        <nav class="mynav" id="myId">
             <ul>
-               <a href="index.html"><li>Home</li> </a> 
-                <a href="projects.html"><li>Projects</li></a>
-                <a href="services.html"><li>Services</li></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    Das Events
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="index.html"> <li>Home</li></a> 
+                <a href="projects.html"> <li>Projects</li></a>
+                <a href="services.html"> <li>Services</li></a>
                 <a href="aboutus.html"><li>About Us</li> </a>
-                <a href="contact.html"><li>Contact</li></a>
+                <a href="contact.html"><li>Contact</li></a>              
             </ul>
-        </nav>
+            </nav>
     </header>
 
     <section class="bg-image">
@@ -41,14 +46,17 @@
             
         </div>
         <div class="small-content">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vsit amet consectetur adipisicing elit. Vero, magni beatae officia possimus qui earum incidunt, quo aspernatur, officiis mollitia aperiam ullam dolor blanditiis cum consequuntur soluta praesentium adipisci ipsam.
-            </p>
+            <p>Our package starts from Rs.1,49,900. 60% of the amount is to be paid during the time of
+                booking and 40% on the day of the event. You dont have to worry about any arrangements as we will
+                take care of services like DJ, music, photo and videography, venue booking, catering and honeymoon.
+                </p>
         </div>
         <div class="aboutus-subfooter">
             <div class="aboutus-subfooter-img">
                 <img src="assets/img/pexels-igor-link-933118.jpg" alt="">
-                <p>Lorem ipsum doporibus omnis neque nihil sdfs fasd fa sdf as df asd fas df asdvoluptates ducimus adipisci, doloribus odit. Magnam quaerat perferendis blanditiis similique deserunt possimus. Consequatur, atque est!
-                </p>
+                <p>Whether you want more flowers or fabrics or balloons in your event, we make it all possible for you and
+                    all you have to do is ask. We communicate closely with you to lead you to the event that you had only
+                    dreamed of.</p>
             </div>
         </div>
     </section>

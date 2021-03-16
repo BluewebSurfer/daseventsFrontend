@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script defer src="menu.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -20,21 +21,27 @@
                 </div>
             </div>
         </div>
-        <nav>
+        <nav class="mynav" id="myId">
             <ul>
-               <a href="index.html"><li>Home</li> </a> 
-                <a href="projects.html"><li>Projects</li></a>
-                <a href="services.html"><li>Services</li></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    Das Events
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="index.html"> <li>Home</li></a> 
+                <a href="projects.html"> <li>Projects</li></a>
+                <a href="services.html"> <li>Services</li></a>
                 <a href="aboutus.html"><li>About Us</li> </a>
-                <a href="contact.html"><li>Contact</li></a>
+                <a href="contact.html"><li>Contact</li></a>              
             </ul>
-        </nav>
+            </nav>
     </header>
 
     <section class="bg">
         <div class="contact-us">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti possimus veniam quibusdam doloribus quis,Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eum, voluptatem, aspernatur tempora repellat qui possimus veniam reiciendis doloremque ipsam officiis, dolorum sint harum porro reprehenderit ex assumenda architecto quos!
-                 exercitationem sit laborum quasi nesciunt corporis illo assumenda, voluptatem nemo, iste quidem perferendis accusantium amet!</p>
+            <p>At Das Events Service, we understand, that the event is equally important for your family and guests as it
+                is for you. That is why our aim is to make it memorable not only for you but for all your loved ones too.
+                Come to us for having an event which reminds you not of the stress of organizing it, but of the cherishing
+                moments of your special day.</p>
         </div>
         <div class="container">
             <form action="action_page.php">

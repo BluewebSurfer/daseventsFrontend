@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="projects.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="menu.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -20,15 +21,19 @@
                 </div>
             </div>
         </div>
-        <nav>
+        <nav class="mynav" id="myId">
             <ul>
-               <a href="index.html"><li>Home</li> </a> 
-                <a href="projects.html"><li>Projects</li></a>
-                <a href="services.html"><li>Services</li></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    Das Events
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="index.html"> <li>Home</li></a> 
+                <a href="projects.html"> <li>Projects</li></a>
+                <a href="services.html"> <li>Services</li></a>
                 <a href="aboutus.html"><li>About Us</li> </a>
-                <a href="contact.html"><li>Contact</li></a>
+                <a href="contact.html"><li>Contact</li></a>              
             </ul>
-        </nav>
+            </nav>
     </header> 
 
     <section class="collage-1">
@@ -89,8 +94,10 @@
 
     <section>
         <div class="content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatem voluptates quasi,
-                 libero et eaque, nemo odio sint recusandae dolor rerum non. Culpa corrupti esse debitis reprehenderit, delectus accusantium repellendus!</p>
+            <p>We have always received a positive feedback from our clients. We organized many events like wedding,
+                baby shower, pre wedding events like sangeet and mehendi ceremony. We were a part of many
+                corporate seminars and conferences. And each time we have been able to suprise our clients by
+                delivereing more than promised or more than their expectations.</p>
         </div>
     </section>
     <!-- footer -->
